@@ -38,8 +38,8 @@ blinking annonce}*/
     flex-wrap: wrap;
 
   margin: auto;
-  width: 52%;
-  padding: 5px;
+  width: 65%;
+  padding: 0px;
 }
 .elem {
   height: 270px;
@@ -60,6 +60,8 @@ blinking annonce}*/
 .pages {
   padding-bottom: 20px;
   padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
   font-size: 18px;
   color: black;
