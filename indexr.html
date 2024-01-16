@@ -52,6 +52,25 @@
 <a href="indexx.html">X</a>&nbsp;-&nbsp;
 <a href="indexy.html">Y</a>&nbsp;-&nbsp;
 <a href="indexz.html">Z</a></p>
+
+<!--BEGIN SEARCH BOX -->
+<center>
+<div class="search_box">
+    <form action="" id="form2">
+        <div>
+            <input class="search_box" type="text" id="search" placeholder="Search a game name that begin with letter (R)..">
+            <input type="button" id="submit_form" onclick="checkInput()" value="Search">
+        </div>
+</center>
+<script>
+    function checkInput() {
+        var query = document.getElementById('search').value;
+        window.find(query);
+        return true;
+    }
+</script>
+<!--END SEARCH BOX -->
+
 <table style="height: 10003px; border-collapse: collapse; border-spacing: 0px; background-color: #f8f8ff; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; width: 616px; border-style: solid; margin-left: auto; margin-right: auto;" border="2" width="616" cellspacing="0px" cellpadding="0">
 <tbody style="box-sizing: border-box;">
 <tr style="box-sizing: border-box; height: 251px;">
@@ -2344,6 +2363,12 @@
 </tr>
 </tbody>
 </table>
+
+<!--BEGIN SEARCH BOX -->
+    </form>
+</div>
+<!--END SEARCH BOX -->
+
 <p style="box-sizing: border-box; margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f8f8ff; text-align: center;">Game's name that begin with letter :</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f8f8ff; text-align: center;">ألعاب يبدأ اسمها بحرف :</p>
 <p style="box-sizing: border-box; margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f8f8ff; text-align: center;">
