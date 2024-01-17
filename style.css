@@ -2,17 +2,16 @@ h2 {
 	text-align: center;
 }
 input {
-	width: 300px;
+	width: 280px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 p {
-	font-size: 12.3px;
-	font-weight: bold;
+	font-size: 11px;
 }
 tbody {
 	background-color: #f8f8ff;
-	font-size: 12.3px;
+	font-size: 11px;
 }
