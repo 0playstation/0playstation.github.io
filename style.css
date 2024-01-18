@@ -14,10 +14,12 @@ input {
 }
 p {
 	font-size: 10px;
+	padding-top: 5px;
 }
 tbody {
 	background-color: #f8f8ff;
 	font-size: 10px;
+	padding-top: 5px;
 }
 body {
 	margin: 0px;
