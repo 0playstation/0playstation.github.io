@@ -39,8 +39,17 @@ button {
 	text-align: center;
 	font-size: 10px;
 }
+.anythingtoscalecontenttoppage:after { 
+	content: "WELCOME TO 0PLAYSTATION.COM";
+}
+.anythingtoscalestyletoppage { 
+	text-align: center;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
 .anythingtoscalecontentfoot:after { 
-	content: "";
+	content: "THANKS FOR YOUR VISIT";
 }
 .anythingtoscalestylefoot { 
 	text-align: center;
