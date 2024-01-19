@@ -20,6 +20,10 @@ p {
 	font-size: 10px;
 	padding-top: 5px;
 }
+table {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 tbody {
 	background-color: #f8f8ff;
 	font-size: 10px;
@@ -55,4 +59,6 @@ button {
 	text-align: center;
 	font-size: 10px;
 	padding-top: 5px;
+	background-color: #2C6CDD;
+	color: white;
 }
