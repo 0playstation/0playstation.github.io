@@ -66,3 +66,26 @@ img {
 	width: 110px;
 	height: 140px;
 }
+a {
+	font-size: 7px;
+	font-weight: bold;
+	letter-spacing: -0.99px;
+}
+/* Set the background color of body to tan */
+body {
+  zoom: 150%;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    zoom: 125%;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    zoom: 100%;
+  }
+}
