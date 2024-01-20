@@ -6,7 +6,7 @@ h2 {
 	margin: 0px;
 }
 input {
-	width: 300px;
+	width: 230px;
 	padding-top: 7px;
 	padding-bottom: 7px;
 	margin-top: 3px;
@@ -16,6 +16,7 @@ input {
 	text-align: center;
 	font-size: 10px;
 	border-width: 1px;
+	height: 8px;
 }
 p {
 	font-size: 10px;
@@ -94,6 +95,7 @@ body {
   }
 }
 #submit_form {
-	width: 70px;
+	width: 65px;
+	height: auto;
 	border-radius: 5px;
 }
