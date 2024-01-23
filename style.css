@@ -1,9 +1,12 @@
 h2 {
 	text-align: center;
-	background-color: #2C6CDD;
-	color: white;
+	background-color: white;
+	color: #243455;
 	padding: 5px;
 	margin: 0px;
+	font-size: 15px;
+	font-family: Fantasy, Times, serif;
+	font-weight: 300;
 }
 input {
 	width: 230px;
@@ -42,8 +45,8 @@ button {
 	width: 150px;
 	padding-top: 7px;
 	padding-bottom: 7px;
-	margin-top: 3px;
-	margin-bottom: 5px;
+	margin-top: 7px;
+	margin-bottom: 10px;
 	color: black;
 	background-color: #EAECF0;
 	text-align: center;
@@ -56,13 +59,15 @@ button {
 }
 .anythingtoscalestyletoppage { 
 	text-align: center;
-	font-size: 15px;
+	font-size: 12px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-bottom: 8px;
 	font-weight: bold;
-	background-color: black;
+	background-color: #243455;
 	color: white;
+	font-family: Fantasy, Times, serif;
+	font-weight: 300;
 }
 .anythingtoscalecontentfoot:after { 
 	content: "THANKS FOR YOUR VISIT";
@@ -71,7 +76,9 @@ button {
 	text-align: center;
 	font-size: 10px;
 	padding-top: 5px;
-	background-color: #2C6CDD;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	background-color: #3e3a39;
 	color: white;
 }
 img {
@@ -85,13 +92,13 @@ a {
 }
 /* Set the background color of body to tan */
 body {
-  zoom: 150%;
+  zoom: 180%;
 }
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   body {
-    zoom: 125%;
+    zoom: 150%;
   }
 }
 
