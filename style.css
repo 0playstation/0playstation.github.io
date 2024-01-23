@@ -90,24 +90,32 @@ a {
 	font-weight: bold;
 	letter-spacing: -0.99px;
 }
-/* Set the background color of body to tan */
+/* if screen size is more than 992px */
 body {
   zoom: 180%;
 }
 
-/* On screens that are 992px or less, set the background color to blue */
+/* if screen size is less than 992px */
 @media screen and (max-width: 992px) {
   body {
     zoom: 150%;
   }
 }
 
-/* On screens that are 600px or less, set the background color to olive */
+/* if screen size is less than 600px */
 @media screen and (max-width: 600px) {
   body {
     zoom: 100%;
   }
 }
+
+/* if screen size is less than 500px */
+@media screen and (max-width: 500px) {
+  body {
+    zoom: 80%;
+  }
+}
+
 #submit_form {
 	width: 65px;
 	height: auto;
