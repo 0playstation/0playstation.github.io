@@ -15,7 +15,7 @@ input {
 	margin-top: 3px;
 	margin-bottom: 5px;
 	color: black;
-	background-color: #EAECF0;
+	background-color: white;
 	text-align: center;
 	font-size: 10px;
 	border-width: 1px;
@@ -78,7 +78,7 @@ button {
 	padding-top: 5px;
 	margin-bottom: 5px;
 	padding-bottom: 5px;
-	background-color: #3e3a39;
+	background-color: #050807;
 	color: white;
 }
 img {
@@ -92,7 +92,7 @@ a {
 }
 /* if screen size is more than 992px */
 body {
-  zoom: 180%;
+  zoom: 160%;
 }
 
 /* if screen size is less than 992px */
@@ -120,4 +120,9 @@ body {
 	width: 65px;
 	height: auto;
 	border-radius: 5px;
+	background-color: #EAECF0;
+}
+.videologo {
+	background: rgb(14,14,15);
+	background: radial-gradient(circle, rgba(14,14,15,1) 0%, rgba(1,1,8,1) 19%, rgba(0,0,0,1) 45%);
 }
