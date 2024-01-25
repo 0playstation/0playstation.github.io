@@ -54,7 +54,7 @@ button {
 	border-width: 1px;
 	border-radius: 5px;
 }
-.anythingtoscalecontenttoppage:after { 
+.anythingtoscalecontenttoppage:before { 
 	content: "WELCOME TO 0PLAYSTATION.COM";
 }
 .anythingtoscalestyletoppage { 
@@ -69,6 +69,160 @@ button {
 	font-family: Fantasy, Times, serif;
 	font-weight: 300;
 }
+
+
+
+.newupdates1:after { 
+	content: "Daily Update Game 25/1/2024 :";
+}
+.newupdates1style { 
+	text-align: center;
+	font-size: 9px;
+	padding-top: 5px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: #243455;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.newupdates2:after { 
+	content: "Add Update 1.11 (Fix 5.05 / 6.72 / 7.02 / 7.50 / 9.00) : Naruto x Boruto Ultimate Ninja Storm Connections";
+}
+.newupdates2style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+}
+.newupdates3:after { 
+	content: "Add DLC v2 : Naruto x Boruto Ultimate Ninja Storm Connections";
+}
+.newupdates3style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+}
+.newupdates4:after { 
+	content: "Add CUSA00552 – USA : The Last of Us Remastered";
+}
+.newupdates4style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+}
+.newupdates5:after { 
+	content: "Add CUSA00079 – USA : Injustice Gods Among Us Ultimate Edition";
+}
+.newupdates5style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+}
+.newupdates6:after { 
+	content: "New game (PS5) : Aspulov End of Gods";
+}
+.newupdates6style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+}
+/*
+.newupdates7:after { 
+	content: "";
+}
+.newupdates7style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+}
+*/
+/*
+.newupdates8:after { 
+	content: "";
+}
+.newupdates8style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+}
+*/
+/*
+.newupdates9:after { 
+	content: "";
+}
+.newupdates9style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+}
+*/
+/*
+.newupdates10:after { 
+	content: "";
+}
+.newupdates10style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	color: black;
+	font-weight: bold;
+}
+*/
+
+
 .anythingtoscalecontentfoot:after { 
 	content: "THANKS FOR YOUR VISIT";
 }
@@ -78,9 +232,10 @@ button {
 	padding-top: 5px;
 	margin-bottom: 5px;
 	padding-bottom: 5px;
-	background-color: #050807;
+	background-color: #243455;
 	color: white;
 }
+
 img {
 	width: 110px;
 	height: 140px;
@@ -123,6 +278,6 @@ body {
 	background-color: #EAECF0;
 }
 .videologo {
-	background: rgb(14,14,15);
-	background: radial-gradient(circle, rgba(14,14,15,1) 0%, rgba(1,1,8,1) 19%, rgba(0,0,0,1) 45%);
+	background: rgb(27,33,43);
+	background: linear-gradient(180deg, rgba(27,33,43,1) 11%, rgba(11,15,17,1) 86%, rgba(8,17,20,1) 97%);
 }
