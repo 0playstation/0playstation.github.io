@@ -88,7 +88,7 @@ button {
 	text-decoration: underline;
 }
 .newupdates2:after { 
-	content: "Add Update 1.11 (Fix 5.05 / 6.72 / 7.02 / 7.50 / 9.00) : Naruto x Boruto Ultimate Ninja Storm Connections";
+	content: "New game (Ps5) : Asterix and Obelix XXXL The Ram From Hibernia";
 }
 .newupdates2style { 
 	text-align: center;
@@ -102,7 +102,7 @@ button {
 	font-weight: bold;
 }
 .newupdates3:after { 
-	content: "Add DLC v2 : Naruto x Boruto Ultimate Ninja Storm Connections";
+	content: "Add Update 1.11 (Fix 5.05 / 6.72 / 7.02 / 7.50 / 9.00) : Naruto x Boruto Ultimate Ninja Storm Connections";
 }
 .newupdates3style { 
 	text-align: center;
@@ -116,7 +116,7 @@ button {
 	font-weight: bold;
 }
 .newupdates4:after { 
-	content: "Add CUSA00552 – USA : The Last of Us Remastered";
+	content: "Add DLC v2 : Naruto x Boruto Ultimate Ninja Storm Connections";
 }
 .newupdates4style { 
 	text-align: center;
@@ -130,7 +130,7 @@ button {
 	font-weight: bold;
 }
 .newupdates5:after { 
-	content: "Add CUSA00079 – USA : Injustice Gods Among Us Ultimate Edition";
+	content: "Add CUSA00552 – USA : The Last of Us Remastered";
 }
 .newupdates5style { 
 	text-align: center;
@@ -144,7 +144,7 @@ button {
 	font-weight: bold;
 }
 .newupdates6:after { 
-	content: "New game (PS5) : Aspulov End of Gods";
+	content: "Add CUSA00079 – USA : Injustice Gods Among Us Ultimate Edition";
 }
 .newupdates6style { 
 	text-align: center;
@@ -157,9 +157,8 @@ button {
 	color: black;
 	font-weight: bold;
 }
-/*
 .newupdates7:after { 
-	content: "";
+	content: "New game (PS5) : Aspulov End of Gods";
 }
 .newupdates7style { 
 	text-align: center;
@@ -172,7 +171,6 @@ button {
 	color: black;
 	font-weight: bold;
 }
-*/
 /*
 .newupdates8:after { 
 	content: "";
