@@ -42,7 +42,7 @@ body {
 	margin: 0px;
 }
 button {
-	width: 120px;
+	width: 100px;
 	padding-top: 7px;
 	padding-bottom: 7px;
 	margin-top: 7px;
@@ -50,7 +50,8 @@ button {
 	color: black;
 	background-color: #EAECF0;
 	text-align: center;
-	font-size: 10px;
+	font-size: 8px;
+	font-weight: bold;
 	border-width: 1px;
 	border-radius: 5px;
 }
@@ -129,6 +130,7 @@ button {
 	color: black;
 	font-weight: bold;
 }
+/*
 .newupdates5:after { 
 	content: "Add CUSA00552 – USA : The Last of Us Remastered";
 }
@@ -143,6 +145,8 @@ button {
 	color: black;
 	font-weight: bold;
 }
+*/
+/*
 .newupdates6:after { 
 	content: "Add CUSA00079 – USA : Injustice Gods Among Us Ultimate Edition";
 }
@@ -157,6 +161,8 @@ button {
 	color: black;
 	font-weight: bold;
 }
+*/
+/*
 .newupdates7:after { 
 	content: "New game (PS5) : Aspulov End of Gods";
 }
@@ -171,6 +177,7 @@ button {
 	color: black;
 	font-weight: bold;
 }
+*/
 /*
 .newupdates8:after { 
 	content: "";
