@@ -74,7 +74,7 @@ button {
 
 
 .newupdates1:after { 
-	content: "Daily Update Game 25/1/2024 اخر التحديثات التي تم اضافتها ";
+	content: "Daily Update Game 26/1/2024 اخر التحديثات التي تم اضافتها ";
 }
 .newupdates1style { 
 	text-align: center;
@@ -103,7 +103,7 @@ button {
 	font-weight: bold;
 }
 .newupdates3:after { 
-	content: "Add Update 1.11 (Fix 5.05 / 6.72 / 7.02 / 7.50 / 9.00) : Naruto x Boruto Ultimate Ninja Storm Connections";
+	content: "New game (PS4) : Crazy Chicken Xtreme";
 }
 .newupdates3style { 
 	text-align: center;
@@ -117,7 +117,7 @@ button {
 	font-weight: bold;
 }
 .newupdates4:after { 
-	content: "Add DLC v2 : Naruto x Boruto Ultimate Ninja Storm Connections";
+	content: "New game (PS4) : Crazy Chicken Kart 2";
 }
 .newupdates4style { 
 	text-align: center;
@@ -130,9 +130,9 @@ button {
 	color: black;
 	font-weight: bold;
 }
-/*
+
 .newupdates5:after { 
-	content: "Add CUSA00552 – USA : The Last of Us Remastered";
+	content: "New game (PS4) : Crazy Chicken Jump N Run Traps and Treasures";
 }
 .newupdates5style { 
 	text-align: center;
@@ -145,10 +145,9 @@ button {
 	color: black;
 	font-weight: bold;
 }
-*/
-/*
+
 .newupdates6:after { 
-	content: "Add CUSA00079 – USA : Injustice Gods Among Us Ultimate Edition";
+	content: "New game (PS4) : Emergency Call The Attack Squad";
 }
 .newupdates6style { 
 	text-align: center;
@@ -161,7 +160,6 @@ button {
 	color: black;
 	font-weight: bold;
 }
-*/
 /*
 .newupdates7:after { 
 	content: "New game (PS5) : Aspulov End of Gods";
