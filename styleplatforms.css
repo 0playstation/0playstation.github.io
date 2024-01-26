@@ -1,0 +1,16 @@
+/*.toppage:before { 
+	content: "LOADING PAGE... PLEASE WAIT... BY WWW.0PLAYSTATION.COM ";
+}
+.toppagestyle { 
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.bottompage:before { 
+	content: "LOADING PAGE... PLEASE WAIT... BY WWW.0PLAYSTATION.COM";
+}
+.bottompagestyle { 
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: underline;
+}*/

@@ -17,9 +17,9 @@ input {
 	color: black;
 	background-color: white;
 	text-align: center;
-	font-size: 10px;
+	font-size: 7px;
 	border-width: 1px;
-	height: 8px;
+	height: 2px;
 }
 p {
 	font-size: 10px;
@@ -42,15 +42,15 @@ body {
 	margin: 0px;
 }
 button {
-	width: 100px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	margin-top: 7px;
+	width: 70px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-top: 9px;
 	margin-bottom: 10px;
 	color: black;
 	background-color: #EAECF0;
 	text-align: center;
-	font-size: 8px;
+	font-size: 5.5px;
 	font-weight: bold;
 	border-width: 1px;
 	border-radius: 5px;
@@ -279,6 +279,10 @@ body {
 	height: auto;
 	border-radius: 5px;
 	background-color: #EAECF0;
+	font-size: 6px;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 .videologo {
 	background: rgb(27,33,43);
