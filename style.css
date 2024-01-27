@@ -7,6 +7,7 @@ h2 {
 	font-size: 15px;
 	font-family: Fantasy, Times, serif;
 	font-weight: 300;
+	font-family: Arial;
 }
 input {
 	width: 170px;
@@ -20,26 +21,32 @@ input {
 	font-size: 7px;
 	border-width: 1px;
 	height: 2px;
+	font-family: Arial;
 }
 p {
 	font-size: 8px;
 	padding-top: 5px;
 	color: black;
 	font-weight: bold;
+	font-family: Arial;
 }
 table {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border-width: 1px;
+	font-family: Arial;
 }
 tbody {
 	background-color: #EAECF0;
 	font-size: 10px;
 	padding-top: 5px;
 	font-weight: bold;
+	font-family: Arial;
 }
 body {
 	margin: 0px;
+	font-family: Arial;
+	overflow-x: hidden;
 }
 button {
 	width: 68px;
@@ -47,8 +54,8 @@ button {
 	padding-bottom: 4px;
 	margin-left: -1px;
 	margin-right: -1px;
-	margin-top: 9px;
-	margin-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 5px;
 	color: white;
 	background-color: #243455;
 	text-align: center;
@@ -56,6 +63,9 @@ button {
 	font-weight: bold;
 	border-width: 1px;
 	border-radius: 5px;
+	font-family: Arial;
+	-webkit-transform: scaleY(1.2);
+    transform: scaleY(1.2);
 }
 .anythingtoscalecontenttoppage:before { 
 	content: "WELCOME TO 0PLAYSTATION.COM";
@@ -89,6 +99,7 @@ button {
 	color: #243455;
 	font-weight: bold;
 	text-decoration: underline;
+	font-family: Arial;
 }
 .newupdates2:after { 
 	content: "New game (Ps5) : Asterix and Obelix XXXL The Ram From Hibernia";
@@ -103,6 +114,7 @@ button {
 	padding-bottom: 2px;
 	color: black;
 	font-weight: bold;
+	font-family: Arial;
 }
 .newupdates3:after { 
 	content: "New game (PS4) : Crazy Chicken Xtreme";
@@ -117,6 +129,7 @@ button {
 	padding-bottom: 2px;
 	color: black;
 	font-weight: bold;
+	font-family: Arial;
 }
 .newupdates4:after { 
 	content: "New game (PS4) : Crazy Chicken Kart 2";
@@ -131,6 +144,7 @@ button {
 	padding-bottom: 2px;
 	color: black;
 	font-weight: bold;
+	font-family: Arial;
 }
 
 .newupdates5:after { 
@@ -146,6 +160,7 @@ button {
 	padding-bottom: 2px;
 	color: black;
 	font-weight: bold;
+	font-family: Arial;
 }
 
 .newupdates6:after { 
@@ -161,6 +176,7 @@ button {
 	padding-bottom: 2px;
 	color: black;
 	font-weight: bold;
+	font-family: Arial;
 }
 /*
 .newupdates7:after { 
@@ -176,6 +192,7 @@ button {
 	padding-bottom: 2px;
 	color: black;
 	font-weight: bold;
+	font-family: Arial;
 }
 */
 /*
@@ -192,6 +209,7 @@ button {
 	padding-bottom: 2px;
 	color: black;
 	font-weight: bold;
+	font-family: Arial;
 }
 */
 /*
@@ -208,6 +226,7 @@ button {
 	padding-bottom: 2px;
 	color: black;
 	font-weight: bold;
+	font-family: Arial;
 }
 */
 /*
@@ -224,6 +243,7 @@ button {
 	padding-bottom: 5px;
 	color: black;
 	font-weight: bold;
+	font-family: Arial;
 }
 */
 
@@ -239,6 +259,7 @@ button {
 	padding-bottom: 5px;
 	background-color: #243455;
 	color: white;
+	font-family: Arial;
 }
 
 img {
@@ -249,16 +270,17 @@ a {
 	font-size: 7px;
 	font-weight: bold;
 	letter-spacing: -0.99px;
+	font-family: Arial;
 }
 /* if screen size is more than 992px */
 body {
-  zoom: 160%;
+  zoom: 150%;
 }
 
 /* if screen size is less than 992px */
 @media screen and (max-width: 992px) {
   body {
-    zoom: 150%;
+    zoom: 140%;
   }
 }
 
@@ -288,6 +310,9 @@ body {
 	padding-bottom: 4px;
 	margin-left: -1px;
 	margin-right: -1px;
+	font-family: Arial;
+	-webkit-transform: scaleY(1.2);
+    transform: scaleY(1.2);
 }
 .videologo {
 	background: rgb(27,33,43);
