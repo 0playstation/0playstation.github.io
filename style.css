@@ -9,7 +9,7 @@ h2 {
 	font-weight: 300;
 }
 input {
-	width: 230px;
+	width: 170px;
 	padding-top: 7px;
 	padding-bottom: 7px;
 	margin-top: 3px;
@@ -22,7 +22,7 @@ input {
 	height: 2px;
 }
 p {
-	font-size: 10px;
+	font-size: 8px;
 	padding-top: 5px;
 	color: black;
 	font-weight: bold;
@@ -42,13 +42,15 @@ body {
 	margin: 0px;
 }
 button {
-	width: 70px;
+	width: 68px;
 	padding-top: 4px;
 	padding-bottom: 4px;
+	margin-left: -1px;
+	margin-right: -1px;
 	margin-top: 9px;
 	margin-bottom: 10px;
-	color: black;
-	background-color: #EAECF0;
+	color: white;
+	background-color: #243455;
 	text-align: center;
 	font-size: 5.5px;
 	font-weight: bold;
@@ -263,14 +265,14 @@ body {
 /* if screen size is less than 600px */
 @media screen and (max-width: 600px) {
   body {
-    zoom: 90%;
+    zoom: 80%;
   }
 }
 
 /* if screen size is less than 500px */
 @media screen and (max-width: 500px) {
   body {
-    zoom: 80%;
+    zoom: 70%;
   }
 }
 
@@ -278,11 +280,14 @@ body {
 	width: 65px;
 	height: auto;
 	border-radius: 5px;
-	background-color: #EAECF0;
+	color: white;
+	background-color: #243455;
 	font-size: 6px;
 	font-weight: bold;
 	padding-top: 4px;
 	padding-bottom: 4px;
+	margin-left: -1px;
+	margin-right: -1px;
 }
 .videologo {
 	background: rgb(27,33,43);
