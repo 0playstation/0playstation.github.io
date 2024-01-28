@@ -269,7 +269,7 @@ img {
 a {
 	font-size: 7px;
 	font-weight: bold;
-	letter-spacing: -0.99px;
+	letter-spacing: -0.50px;
 	font-family: Arial;
 }
 /* if screen size is more than 992px */
@@ -319,4 +319,23 @@ body {
 	background: linear-gradient(180deg, rgba(27,33,43,1) 11%, rgba(11,15,17,1) 86%, rgba(8,17,20,1) 97%);
 }
 
+a:link    {color:white;}  /* unvisited link  */
+a:visited {color:#D2D2D2;}  /* visited link    */
+a:hover   {color:#D2D2D2;}  /* mouse over link */
+a:active  {color:grey;}  /* selected link   */ 
 
+a:link    {text-decoration: none;}   /* unvisited link  */
+a:visited {text-decoration: none;}   /* visited link    */
+a:hover   {text-decoration: none;}  /* mouse over link */
+a:active  {text-decoration: none;}   /* selected link   */ 
+
+a {
+        width: 7px;
+        height: 3px;
+        padding: 1.4px;
+        background: #243455;
+        border: 1px solid #243455;
+        color: white;
+        text-align: center;
+		border-radius: 2px;
+      }
