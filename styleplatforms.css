@@ -14,3 +14,9 @@
 	font-weight: bold;
 	text-decoration: underline;
 }*/
+body {
+	margin: 50px;
+}
+td {
+	padding: 20px;
+}
