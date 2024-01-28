@@ -15,8 +15,16 @@
 	text-decoration: underline;
 }*/
 body {
-	margin: 50px;
+	margin: 100px;
+	text-align: center;
 }
 td {
 	padding: 20px;
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+span {
+	text-align: center;
 }
