@@ -33,7 +33,8 @@ p {
 table {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border-width: 1px;
+	border-width: 0px;
+	border-color: #D2D2D2;
 	font-family: Arial;
 }
 tbody {
@@ -322,7 +323,7 @@ body {
 a:link    {color:white;}  /* unvisited link  */
 a:visited {color:#D2D2D2;}  /* visited link    */
 a:hover   {color:#D2D2D2;}  /* mouse over link */
-a:active  {color:grey;}  /* selected link   */ 
+a:active  {color:#D2D2D3;}  /* selected link   */ 
 
 a:link    {text-decoration: none;}   /* unvisited link  */
 a:visited {text-decoration: none;}   /* visited link    */
