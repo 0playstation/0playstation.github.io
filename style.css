@@ -375,5 +375,6 @@ span {
 img:hover
 {
 	transition: 0.9s;
-	transform: rotateY(180deg);
+	transform: scale(1.5);
+	transition: transform 0.5s ease-in-out;
 }
