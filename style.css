@@ -340,3 +340,15 @@ a {
         text-align: center;
 		border-radius: 2px;
       }
+.gameinline {
+	display: inline-block;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 30px;
+	text-align: center;
+	flex: auto;
+}
+body {
+	text-align: center;
+}
