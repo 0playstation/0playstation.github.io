@@ -13,7 +13,7 @@ input {
 	width: 170px;
 	padding-top: 7px;
 	padding-bottom: 7px;
-	margin-top: 3px;
+	margin-top: 10px;
 	margin-bottom: 5px;
 	color: black;
 	background-color: white;
@@ -29,6 +29,10 @@ p {
 	color: black;
 	font-weight: bold;
 	font-family: Arial;
+	max-width: 25ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 table {
 	margin-top: 10px;
@@ -275,7 +279,7 @@ a {
 }
 /* if screen size is more than 992px */
 body {
-  zoom: 150%;
+  zoom: 130%;
 }
 
 /* if screen size is less than 992px */
@@ -343,12 +347,20 @@ a {
 .gameinline {
 	display: inline-block;
 	padding-top: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 	text-align: center;
 	flex: auto;
 }
 body {
 	text-align: center;
+}
+span {
+	font-size: 8px;
+	padding-top: 5px;
+	color: black;
+	font-weight: bold;
+	font-family: Arial;
 }
