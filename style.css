@@ -23,6 +23,7 @@ input {
 	height: 2px;
 	font-family: Arial;
 }
+
 p {
 	font-size: 8px;
 	padding-top: 5px;
@@ -34,6 +35,12 @@ p {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+/*
+p:hover{
+    overflow: visible; 
+    white-space: normal; 
+}*/
+
 table {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -363,4 +370,10 @@ span {
 	color: black;
 	font-weight: bold;
 	font-family: Arial;
+}
+
+img:hover
+{
+	transition: 0.9s;
+	transform: rotateY(180deg);
 }
