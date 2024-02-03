@@ -16,15 +16,39 @@
 }*/
 body {
 	margin: 100px;
-	text-align: center;
 }
 td {
 	padding: 20px;
-	text-align: center;
 }
 p {
-	text-align: center;
+	text-align: left;
 }
 span {
-	text-align: center;
+	text-align: left;
+}
+
+/* if screen size is more than 992px */
+body {
+  zoom: 130%;
+}
+
+/* if screen size is less than 992px */
+@media screen and (max-width: 992px) {
+  body {
+    zoom: 120%;
+  }
+}
+
+/* if screen size is less than 600px */
+@media screen and (max-width: 600px) {
+  body {
+    zoom: 75%;
+  }
+}
+
+/* if screen size is less than 500px */
+@media screen and (max-width: 500px) {
+  body {
+    zoom: 65%;
+  }
 }

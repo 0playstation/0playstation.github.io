@@ -1,0 +1,21 @@
+<!-- game -->
+<div class="gameinline">
+<td style="box-sizing: border-box; padding: 0px; width: 176.688px; height: 14px;">
+<p style="box-sizing: border-box; margin: 0px 0px 10px; text-align: center;">Mace Griffin Bounty Hunter</p>
+<p style="box-sizing: border-box; margin: 0px 0px 10px; text-align: center;">
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img style="box-sizing: border-box; border: 0px; vertical-align: middle; display: block; margin-left: auto; margin-right: auto;" src="https://justpaste.it/img/r/165/200/1427cfd3e93b937c8fe01fcf5cfab281.jpg" width="150" /></div>
+    <div class="flip-box-back">
+      <img src="https://steamuserimages-a.akamaihd.net/ugc/777363933073326162/27ACE27AF37A123493540BE20349DC27C993612F/" alt="alternatetext">
+    </div>
+  </div>
+</div></p>
+</td>
+<br><br><br><br><br><br><br>
+<td style="box-sizing: border-box; padding: 0px; width: 221.863px; text-align: center; height: 14px;">
+<p style="box-sizing: border-box; margin: 0px 0px 10px; text-align: center;">Download Links:<br><br><a style="box-sizing: border-box; background-color: transparent; color: #10589b; text-decoration-line: none;" href="https://ouo.io/TVOn8l" rel="nofollow">https://ouo.io/TVOn8l</a></td>
+<td style="box-sizing: border-box; padding: 0px; width: 215.85px; text-align: center; height: 14px;">
+<p style="box-sizing: border-box; margin: 0px 0px 10px; text-align: center;"><a style="box-sizing: border-box; background-color: transparent; color: #10589b; text-decoration-line: none;" href="https://tii.la/NzJ5za" rel="nofollow">https://tii.la/NzJ5za</a></td>
+</div>
