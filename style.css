@@ -447,3 +447,162 @@ img:hover
   color: white;
   transform: rotateY(180deg);
 }
+
+
+
+
+/*
+social button
+*/
+
+.footer-text {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}	
+
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.social-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 32px;
+  height: 32px;
+  text-decoration: none;
+  border-radius: 100%;
+  background: #fff;
+  text-align: center;
+  background-color: #243455;
+}
+.social-button::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+.social-button:focus, .social-button:hover {
+  color: #fff;
+}
+.social-button:focus::after, .social-button:hover::after {
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  margin-left: calc(-50% - 1px);
+}
+.social-button i,
+.social-button svg {
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+}
+.social-button i {
+  font-size: 15.6px;
+}
+.social-button svg {
+  height: 20%;
+  width: 20%;
+}
+.social-button--mail {
+  color: orange;
+}
+.social-button--mail::after {
+  background: orange;
+}
+.social-button--facebook {
+  color: #3b5999;
+}
+.social-button--facebook::after {
+  background: #3b5999;
+}
+.social-button--youtube {
+  color: red;
+}
+.social-button--youtube::after {
+  background: red;
+}
+.social-button--github {
+  color: #6e5494;
+}
+.social-button--github::after {
+  background: #6e5494;
+}
+.social-button--codepen {
+  color: #212121;
+}
+.social-button--codepen::after {
+  background: #212121;
+}
+.social-button--steam {
+  color: #7da10e;
+}
+.social-button--steam::after {
+  background: #7da10e;
+}
+.social-button--snapchat {
+  color: #eec900;
+}
+.social-button--snapchat::after {
+  background: #eec900;
+}
+.social-button--twitter {
+  color: #55acee;
+}
+.social-button--twitter::after {
+  background: #55acee;
+}
+.social-button--instagram {
+  color: brown;
+}
+.social-button--instagram::after {
+  background: brown;
+}
+.social-button--whatsapp {
+  color: green;
+}
+
+.social-button--whatsapp::after {
+  background: green;
+}
+.social-button--tiktok {
+  color: black;
+}
+.social-button--tiktok::after {
+  background: black;
+}
+.social-button--telegram {
+  color: #229ED9;
+}
+.social-button--telegram::after {
+  background: #229ED9;
+}
+.social-button--npmjs {
+  color: #c12127;
+}
+.social-button--npmjs::after {
+  background: #c12127;
+}
+
+.social-button--paypal {
+  color: #3b7bbf;
+}
+
+.social-button--paypal::after {
+  background: #3b7bbf;
+}
+
+/*
+social button
+*/
