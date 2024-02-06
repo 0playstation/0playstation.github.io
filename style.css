@@ -60,17 +60,17 @@ body {
 	overflow-x: hidden;
 }
 button {
-	width: 65px;
+	width: 69px;
 	padding-top: 4px;
 	padding-bottom: 4px;
-	margin-left: -1px;
-	margin-right: -1px;
+	margin-left: -1.3px;
+	margin-right: -1.3px;
 	margin-top: 0px;
 	margin-bottom: 5px;
 	color: white;
 	background-color: #243455;
 	text-align: center;
-	font-size: 5.5px;
+	font-size: 5.3px;
 	font-weight: bold;
 	border-width: 1px;
 	border-radius: 5px;
