@@ -278,6 +278,12 @@ img {
 	width: 110px;
 	height: 140px;
 }
+
+.logohd {
+	width: 50px;
+	height: 50px;
+}
+
 a {
 	font-size: 7px;
 	font-weight: bold;
@@ -287,27 +293,27 @@ a {
 }
 /* if screen size is more than 992px */
 body {
-  zoom: 130%;
+  zoom: 120%;
 }
 
 /* if screen size is less than 992px */
 @media screen and (max-width: 992px) {
   body {
-    zoom: 120%;
+    zoom: 110%;
   }
 }
 
 /* if screen size is less than 600px */
 @media screen and (max-width: 600px) {
   body {
-    zoom: 75%;
+    zoom: 70%;
   }
 }
 
 /* if screen size is less than 500px */
 @media screen and (max-width: 500px) {
   body {
-    zoom: 65%;
+    zoom: 60%;
   }
 }
 
