@@ -30,7 +30,7 @@ p {
 	color: black;
 	font-weight: bold;
 	font-family: Arial;
-	max-width: 25ch;
+	max-width: 24ch;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -97,7 +97,7 @@ button {
 
 
 .newupdates1:after { 
-	content: "Daily Update Game : 10/2/2024 : اخر التحديثات التي تم اضافتها ";
+	content: "Daily Update Game : 12/2/2024 : اخر التحديثات التي تم اضافتها ";
 }
 .newupdates1style { 
 	text-align: center;
@@ -113,7 +113,7 @@ button {
 	font-family: Arial;
 }
 .newupdates2:after { 
-	content: "New game (PS5) : Martha is Dead";
+	content: "New game (PS4) : DINOSAURS Mission Dino Camp";
 }
 .newupdates2style { 
 	text-align: center;
@@ -128,7 +128,7 @@ button {
 	font-family: Arial;
 }
 .newupdates3:after { 
-	content: "New game (PS4) : Gigantosaurus The Game";
+	content: "Add CUSA24899 – EUR (v1.04) (PS4) : Stray";
 }
 .newupdates3style { 
 	text-align: center;
@@ -143,7 +143,7 @@ button {
 	font-family: Arial;
 }
 .newupdates4:after { 
-	content: "Add Update 1.11 + Update 1.11 (Fix 5.05/6.72/7.xx/8.xx) (PS4) : EA Sports FC 24";
+	content: "Add PPSA02324 – USA (PS5) : Hot Wheels Unleashed";
 }
 .newupdates4style { 
 	text-align: center;
@@ -159,7 +159,7 @@ button {
 }
 
 .newupdates5:after { 
-	content: "Add PPSA02876 – EUR (PS5) : The Smurfs Mission Vileaf";
+	content: "New game (PS5) : Monster Energy Supercross The Official Videogame 5";
 }
 .newupdates5style { 
 	text-align: center;
@@ -275,7 +275,7 @@ button {
 }
 
 img {
-	width: 110px;
+	width: 108px;
 	height: 140px;
 }
 
@@ -351,9 +351,11 @@ a:active  {text-decoration: none;}   /* selected link   */
 a {
         width: 7px;
         height: 3px;
-        padding: 1.4px;
+        padding: 2px;
+		margin-bottom: 10px;
         background: #243455;
-        border: 1px solid #243455;
+        border: 1px outset #C6C6C6;
+		border-style: outset outset outset outset;
         color: white;
         text-align: center;
 		border-radius: 2px;
@@ -379,7 +381,7 @@ a {
 	margin-top: 10px;
 	text-align: center;
 	flex: auto;
-	border: 1px solid grey;
+	border: 1px solid #C6C6C6;
 	background-color: #EFEFEF;
 }
 body {
