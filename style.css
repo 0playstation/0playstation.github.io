@@ -113,7 +113,7 @@ button {
 	font-family: Arial;
 }
 .newupdates2:after { 
-	content: "New game (PS4) : DINOSAURS Mission Dino Camp";
+	content: "New game (PS4) : Persona 3 Reload Digital Premium Edition";
 }
 .newupdates2style { 
 	text-align: center;
@@ -128,7 +128,7 @@ button {
 	font-family: Arial;
 }
 .newupdates3:after { 
-	content: "Add CUSA24899 – EUR (v1.04) (PS4) : Stray";
+	content: "New game (PS5) : Astros Playroom";
 }
 .newupdates3style { 
 	text-align: center;
@@ -143,7 +143,7 @@ button {
 	font-family: Arial;
 }
 .newupdates4:after { 
-	content: "Add PPSA02324 – USA (PS5) : Hot Wheels Unleashed";
+	content: "Add CUSA24899 – EUR (v1.04) (PS4) : Stray";
 }
 .newupdates4style { 
 	text-align: center;
@@ -159,7 +159,7 @@ button {
 }
 
 .newupdates5:after { 
-	content: "New game (PS5) : Monster Energy Supercross The Official Videogame 5";
+	content: "Add PPSA02324 – USA (PS5) : Hot Wheels Unleashed";
 }
 .newupdates5style { 
 	text-align: center;
@@ -280,8 +280,8 @@ img {
 }
 
 .logohd {
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
 }
 
 a {
@@ -293,7 +293,7 @@ a {
 }
 /* if screen size is more than 992px */
 body {
-  zoom: 120%;
+  zoom: 140%;
 }
 
 /* if screen size is less than 992px */
