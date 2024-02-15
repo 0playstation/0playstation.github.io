@@ -293,20 +293,20 @@ a {
 }
 /* if screen size is more than 992px */
 body {
-  zoom: 140%;
+  zoom: 120%;
 }
 
 /* if screen size is less than 992px */
 @media screen and (max-width: 992px) {
   body {
-    zoom: 110%;
+    zoom: 100%;
   }
 }
 
 /* if screen size is less than 600px */
 @media screen and (max-width: 600px) {
   body {
-    zoom: 70%;
+    zoom: 65%;
   }
 }
 
@@ -614,3 +614,57 @@ social button
 /*
 social button
 */
+
+
+
+
+
+/* fbstories */
+.container-stories {
+  margin: 15px auto;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  height: 94px;
+  width: 130px;
+  background-color: black;
+  font-size: 7px;
+  color: white;
+}
+
+.container-stories img, .container-stories video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  font-size: 7px;
+  color: white;
+}
+.user {
+  z-index: 100;
+  border-radius: 14px;
+  margin-left: 2px;
+  position: absolute;
+  top: 84px;
+  background-size: cover;
+  font-size: 7px;
+  color: white;
+}
+
+.close-btn {
+  position: absolute;
+  right: 10px;
+  top: 22px;
+  width: 14px !important;
+  height: 14px !important;
+  z-index: 1;
+  font-size: 7px;
+  color: white;
+}
+.slick-dots {
+  display: none;
+  font-size: 7px;
+  color: white;
+}
+
+
+/* fbstories */
