@@ -626,11 +626,14 @@ social button
   position: relative;
   overflow: hidden;
   padding: 0;
-  height: 94px;
+  height: 95px;
   width: 130px;
-  background-color: black;
+  background-color: #243455;
   font-size: 7px;
   color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  border: 1px outset #243455;
 }
 
 .container-stories img, .container-stories video {
@@ -649,6 +652,7 @@ social button
   background-size: cover;
   font-size: 7px;
   color: white;
+  padding: 0;
 }
 
 .close-btn {
@@ -676,4 +680,10 @@ social button
 hr {
 	margin-bottom: 0px;
 	margin-top: 2px;
+}
+
+
+
+img {
+  transform: scale(0.8);
 }
