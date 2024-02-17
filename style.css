@@ -97,7 +97,7 @@ button {
 
 
 .newupdates1:after { 
-	content: "Daily Update Game : 16/2/2024 : اخر التحديثات التي تم اضافتها ";
+	content: "Daily Update Game : 17/2/2024 : اخر التحديثات التي تم اضافتها ";
 }
 .newupdates1style { 
 	text-align: center;
@@ -113,7 +113,7 @@ button {
 	font-family: Arial;
 }
 .newupdates2:after { 
-	content: "New game (PS4) : Canis Canem Edit";
+	content: "New game (PS4) : Dakar Desert Rally";
 }
 .newupdates2style { 
 	text-align: center;
@@ -128,7 +128,7 @@ button {
 	font-family: Arial;
 }
 .newupdates3:after { 
-	content: "New game (PS5) : HOA";
+	content: "New game (PS4) : Sword Art Online Last Recollection Deluxe Edition";
 }
 .newupdates3style { 
 	text-align: center;
@@ -143,7 +143,7 @@ button {
 	font-family: Arial;
 }
 .newupdates4:after { 
-	content: "Add CUSA28698 – USA (v1.87) (PS4) : Disney Dreamlight Valley";
+	content: "Add CUSA31820 (Rebuild) : The Quarry Deluxe Edition";
 }
 .newupdates4style { 
 	text-align: center;
@@ -159,7 +159,7 @@ button {
 }
 
 .newupdates5:after { 
-	content: "Add PPSA02324 – USA (PS5) : Hot Wheels Unleashed";
+	content: "New game (PS4) : Bomber Crew Deluxe Edition";
 }
 .newupdates5style { 
 	text-align: center;
@@ -293,7 +293,7 @@ a {
 }
 /* if screen size is more than 992px */
 body {
-  zoom: 120%;
+  zoom: 140%;
 }
 
 /* if screen size is less than 992px */
@@ -622,12 +622,12 @@ social button
 
 /* fbstories */
 .container-stories {
-  margin: 15px auto;
+  margin: 5px auto;
   position: relative;
   overflow: hidden;
   padding: 0;
   height: 95px;
-  width: 130px;
+  width: 135px;
   background-color: #243455;
   font-size: 7px;
   color: white;
