@@ -687,3 +687,10 @@ hr {
 img {
   transform: scale(1);
 }
+
+
+.sponsoring img{
+  width: 170px;
+  height: 30px;
+  transform: inherit;
+}
