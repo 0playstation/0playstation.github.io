@@ -97,7 +97,7 @@ button {
 
 
 .newupdates1:after { 
-	content: "Daily Update Game : 18/2/2024 : اخر التحديثات التي تم اضافتها ";
+	content: "Daily Update Game : 19/2/2024 : اخر التحديثات التي تم اضافتها ";
 }
 .newupdates1style { 
 	text-align: center;
@@ -112,6 +112,7 @@ button {
 	text-decoration: underline;
 	font-family: Arial;
 }
+/*
 .newupdates2:after { 
 	content: "New game (PS4) : Emergency Crew Volcano Eruption";
 }
@@ -159,7 +160,7 @@ button {
 }
 
 .newupdates5:after { 
-	content: "New game (PS4) : Sword Art Online Last Recollection Deluxe Edition";
+	content: "New game (PS4) : Warm Snow";
 }
 .newupdates5style { 
 	text-align: center;
@@ -173,7 +174,7 @@ button {
 	font-weight: bold;
 	font-family: Arial;
 }
-/*
+
 .newupdates6:after { 
 	content: "New game (PS4) : Emergency Call The Attack Squad";
 }
@@ -629,7 +630,7 @@ social button
   height: 95px;
   width: 135px;
   background-color: #243455;
-  font-size: 7px;
+  font-size: 6.5px;
   color: white;
   border-width: 1px;
   border-radius: 5px;
