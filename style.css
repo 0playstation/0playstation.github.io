@@ -363,13 +363,7 @@ a {
 		background-color: #243455;
       }
 
-#a {
-	background-color: #243455;
-}	  
 
-.a {
-	background-color: #243455;
-}
 	  
 .gameinline {
 	display: inline-block;
@@ -696,3 +690,6 @@ img {
   transform: inherit;
 }
 
+.sponsoring a{
+  all: initial;
+}
