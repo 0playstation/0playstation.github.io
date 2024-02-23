@@ -15,7 +15,7 @@ input {
 	padding-bottom: 7px;
 	margin-top: 10px;
 	margin-bottom: 5px;
-	color: black;
+	color: #243455;
 	background-color: white;
 	text-align: center;
 	font-size: 7px;
@@ -54,23 +54,19 @@ tbody {
 	font-weight: bold;
 	font-family: Arial;
 }
-body {
-	margin: 0px;
-	font-family: Arial;
-	overflow-x: hidden;
-}
+
 button {
-	width: 69px;
+	width: 73px;
 	padding-top: 4px;
 	padding-bottom: 4px;
 	margin-left: -1.3px;
 	margin-right: -1.3px;
 	margin-top: 0px;
 	margin-bottom: 5px;
-	color: white;
-	background-color: #243455;
+	color: #243455;
+	background-color: white;
 	text-align: center;
-	font-size: 5.3px;
+	font-size: 5.5px;
 	font-weight: bold;
 	border-width: 1px;
 	border-radius: 5px;
@@ -280,10 +276,7 @@ img {
 	height: 140px;
 }
 
-.logohd {
-	width: 30px;
-	height: 30px;
-}
+
 
 a {
 	font-size: 7px;
@@ -322,8 +315,8 @@ body {
 	width: 65px;
 	height: auto;
 	border-radius: 5px;
-	color: white;
-	background-color: #243455;
+	color: #243455;
+	background-color: white;
 	font-size: 6px;
 	font-weight: bold;
 	padding-top: 4px;
@@ -367,17 +360,17 @@ a {
 	  
 .gameinline {
 	display: inline-block;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 12px;
-	padding-right: 12px;
-	margin-left: 4px;
-	margin-right: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
 	margin-top: 10px;
 	text-align: center;
 	flex: auto;
 	border: 1px solid #C6C6C6;
-	background-color: #EFEFEF;
+	background-color: #e9ebe9;
 }
 body {
 	text-align: center;
@@ -688,8 +681,38 @@ img {
   width: 170px;
   height: 30px;
   transform: inherit;
+  margin-top: 30px;
 }
 
 .sponsoring a{
   all: initial;
+}
+
+.logostyle { 
+	width: 100%;
+	height: 30px;
+  position: fixed;
+  z-index: 9999;
+  background-size: 100px;
+  background-color: #243455;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.logohd {
+	width: 30px;
+	height: 30px;
+  float: center;
+  position: fixed;
+  z-index: 10000;
+  background-size: 100px;
+  background-color: #243455;
+  margin-top: -2px;
+}
+
+body {
+	margin: 0px;
+	font-family: Arial;
+	overflow-x: hidden;
+	background-color: #fdf3e8;
 }
