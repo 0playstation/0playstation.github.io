@@ -688,6 +688,9 @@ img {
   all: initial;
 }
 
+
+
+/* if screen size is more than 992px */
 .logostyle { 
 	width: 100%;
 	height: 30px;
@@ -709,6 +712,116 @@ img {
   background-color: #243455;
   margin-top: -2px;
 }
+
+.sponsoring img{
+  width: 130px;
+  height: 40px;
+  transform: inherit;
+  margin-top: 30px;
+}
+
+/* if screen size is less than 992px */
+@media screen and (max-width: 992px) {
+  .logostyle { 
+	width: 100%;
+	height: 30px;
+  position: fixed;
+  z-index: 9999;
+  background-size: 200px;
+  background-color: #243455;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.logohd {
+	width: 30px;
+	height: 30px;
+  float: center;
+  position: fixed;
+  z-index: 10000;
+  background-size: 100px;
+  background-color: #243455;
+  margin-top: -2px;
+}
+
+.sponsoring img{
+  width: 130px;
+  height: 40px;
+  transform: inherit;
+  margin-top: 30px;
+}
+
+}
+
+/* if screen size is less than 600px */
+@media screen and (max-width: 600px) {
+  .logostyle { 
+	width: 100%;
+	height: 60px;
+  position: fixed;
+  z-index: 9999;
+  background-size: 200px;
+  background-color: #243455;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.logohd {
+	width: 30px;
+	height: 30px;
+  float: center;
+  position: fixed;
+  z-index: 10000;
+  background-size: 100px;
+  background-color: #243455;
+  margin-top: 10px;
+}
+
+.sponsoring img{
+  width: 130px;
+  height: 40px;
+  transform: inherit;
+  margin-top: 60px;
+}
+
+}
+
+/* if screen size is less than 500px */
+@media screen and (max-width: 500px) {
+  .logostyle { 
+	width: 100%;
+	height: 60px;
+  position: fixed;
+  z-index: 9999;
+  background-size: 200px;
+  background-color: #243455;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.logohd {
+	width: 30px;
+	height: 30px;
+  float: center;
+  position: fixed;
+  z-index: 10000;
+  background-size: 100px;
+  background-color: #243455;
+  margin-top: 10px;
+}
+
+.sponsoring img{
+  width: 130px;
+  height: 40px;
+  transform: inherit;
+  margin-top: 30px;
+}
+
+}
+
+
+
+
 
 body {
 	margin: 0px;
