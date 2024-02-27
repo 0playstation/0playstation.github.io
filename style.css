@@ -93,7 +93,7 @@ button {
 
 
 .newupdates1:after { 
-	content: "Daily Update Game : 26/2/2024 : اخر التحديثات التي تم اضافتها ";
+	content: "Daily Update Game : 27/2/2024 : اخر التحديثات التي تم اضافتها ";
 }
 .newupdates1style { 
 	text-align: center;
@@ -828,4 +828,19 @@ body {
 	font-family: Arial;
 	overflow-x: hidden;
 	background-color: #fdf3e8;
+}
+
+
+
+
+.sponsoring2 img{
+  width: 290px;
+  height: 180px;
+  transform: inherit;
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+.sponsoring2 a{
+  all: initial;
 }
