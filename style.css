@@ -93,7 +93,7 @@ button {
 
 
 .newupdates1:after { 
-	content: "Daily Update Game : 28/2/2024 : اخر التحديثات التي تم اضافتها ";
+	content: "Daily Update Game : 29/2/2024 : اخر التحديثات التي تم اضافتها ";
 }
 .newupdates1style { 
 	text-align: center;
@@ -690,7 +690,7 @@ img {
 
 
 
-/* if screen size is more than 992px */
+/* if screen size is more than 1920px */
 .logostyle { 
 	width: 100%;
 	height: 40px;
@@ -722,6 +722,88 @@ img {
 
 button {
 	margin-top: 10px;
+	font-size: 5.5px;
+	width: 64px;
+}
+
+/* if screen size is less than 1500px */
+@media screen and (max-width: 1500px) {
+.logostyle { 
+	width: 100%;
+	height: 40px;
+  position: fixed;
+  z-index: 9999;
+  background-size: 200px;
+  background-color: #243455;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.logohd {
+	width: 20px;
+	height: 30px;
+  float: center;
+  position: fixed;
+  z-index: 10000;
+  background-size: 100px;
+  background-color: #243455;
+  margin-top: 3px;
+}
+
+.sponsoring img{
+  width: 130px;
+  height: 40px;
+  transform: inherit;
+  margin-top: 40px;
+}
+
+button {
+	margin-top: 15px;
+	font-size: 4.5px;
+	width: 46px;
+	padding: 1px;
+	margin-bottom: 5px;
+}
+}
+
+/* if screen size is less than 1080px */
+@media screen and (max-width: 1080px) {
+.logostyle { 
+	width: 100%;
+	height: 40px;
+  position: fixed;
+  z-index: 9999;
+  background-size: 200px;
+  background-color: #243455;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.logohd {
+	width: 20px;
+	height: 30px;
+  float: center;
+  position: fixed;
+  z-index: 10000;
+  background-size: 100px;
+  background-color: #243455;
+  margin-top: 3px;
+}
+
+.sponsoring img{
+  width: 130px;
+  height: 40px;
+  transform: inherit;
+  margin-top: 40px;
+}
+
+button {
+	margin-top: 15px;
+	font-size: 4.5px;
+	width: 46px;
+	padding: 1px;
+	margin-bottom: 5px;
+}
 }
 
 /* if screen size is less than 992px */
@@ -756,12 +838,16 @@ button {
 }
 
 button {
-	margin-top: 10px;
+	margin-top: 15px;
+	font-size: 4.5px;
+	width: 46px;
+	padding: 1px;
+	margin-bottom: 5px;
 }
 }
 
-/* if screen size is less than 600px */
-@media screen and (max-width: 600px) {
+/* if screen size is less than 767px */
+@media screen and (max-width: 767px) {
   .logostyle { 
 	width: 100%;
 	height: 60px;
@@ -790,11 +876,17 @@ button {
   transform: inherit;
   margin-top: 60px;
 }
+button {
+	margin-top: 25px;
+	font-size: 3.5px;
+	width: 45px;
+	padding: 1px;
+}
 
 }
 
-/* if screen size is less than 500px */
-@media screen and (max-width: 500px) {
+/* if screen size is less than 479px */
+@media screen and (max-width: 479px) {
   .logostyle { 
 	width: 100%;
 	height: 60px;
@@ -823,6 +915,12 @@ button {
   transform: inherit;
   margin-top: 30px;
 }
+button {
+	margin-top: 25px;
+	font-size: 3.5px;
+	width: 45px;
+	padding: 1px;
+}
 
 }
 
@@ -850,4 +948,24 @@ body {
 
 .sponsoring2 a{
   all: initial;
+}
+
+
+
+
+#submit_form2 {
+	width: 150px;
+	height: auto;
+	border-radius: 5px;
+	color: #243455;
+	background-color: white;
+	font-size: 6px;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-left: -1px;
+	margin-right: -1px;
+	font-family: Arial;
+	-webkit-transform: scaleY(1.2);
+    transform: scaleY(1.2);
 }
