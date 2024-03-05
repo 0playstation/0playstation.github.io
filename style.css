@@ -740,7 +740,7 @@ button {
 }
 
 .logohd {
-	width: 20px;
+	width: 30px;
 	height: 30px;
   float: center;
   position: fixed;
@@ -917,6 +917,45 @@ button {
 }
 button {
 	margin-top: 25px;
+	font-size: 3.5px;
+	width: 45px;
+	padding: 1px;
+}
+
+}
+
+/* if screen size is less than 399px */
+@media screen and (max-width: 399px) {
+  .logostyle { 
+	width: 100%;
+	height: 60px;
+  position: fixed;
+  z-index: 9999;
+  background-size: 200px;
+  background-color: #243455;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.logohd {
+	width: 30px;
+	height: 30px;
+  float: center;
+  position: fixed;
+  z-index: 10000;
+  background-size: 100px;
+  background-color: #243455;
+  margin-top: 10px;
+}
+
+.sponsoring img{
+  width: 130px;
+  height: 40px;
+  transform: inherit;
+  margin-top: 60px;
+}
+button {
+	margin-top: 8px;
 	font-size: 3.5px;
 	width: 45px;
 	padding: 1px;
