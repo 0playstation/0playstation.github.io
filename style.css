@@ -285,9 +285,23 @@ a {
 	font-family: Arial;
 	background-color: #243455;
 }
-/* if screen size is more than 992px */
+/* if screen size is more than 3000px */
 body {
-  zoom: 140%;
+  zoom: 160%;
+}
+
+/* if screen size is less than 3000px */
+@media screen and (max-width: 3000px) {
+  body {
+    zoom: 180%;
+  }
+}
+
+/* if screen size is less than 2000px */
+@media screen and (max-width: 2000px) {
+  body {
+    zoom: 180%;
+  }
 }
 
 /* if screen size is less than 992px */
@@ -781,13 +795,13 @@ button {
 
 .logohd {
 	width: 20px;
-	height: 30px;
+	height: 20px;
   float: center;
   position: fixed;
   z-index: 10000;
   background-size: 100px;
   background-color: #243455;
-  margin-top: 3px;
+  margin-top: 8px;
 }
 
 .sponsoring img{
