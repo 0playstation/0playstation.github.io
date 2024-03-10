@@ -1030,3 +1030,18 @@ body {
 .logohd a{
   all: initial;
 }
+
+.blink {
+animation: blinker 0.01s linear infinite;
+color: red;
+}
+@keyframes blinker {
+10% {
+opacity: 50;
+}
+}
+
+            #blink {
+                color: #243455;
+                transition: 1s;
+            }

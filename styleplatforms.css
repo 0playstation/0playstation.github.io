@@ -14,41 +14,34 @@
 	font-weight: bold;
 	text-decoration: underline;
 }*/
-body {
-	margin: 30px;
-}
-td {
-	padding: 20px;
-}
-p {
-	text-align: left;
-}
-span {
-	text-align: left;
-}
+
 
 /* if screen size is more than 992px */
 body {
-  zoom: 130%;
+  zoom: 100%;
 }
 
 /* if screen size is less than 992px */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 700px) {
   body {
-    zoom: 120%;
-  }
-}
-
-/* if screen size is less than 600px */
-@media screen and (max-width: 600px) {
-  body {
-    zoom: 75%;
+    zoom: 55%;
   }
 }
 
 /* if screen size is less than 500px */
 @media screen and (max-width: 500px) {
   body {
-    zoom: 65%;
+    zoom: 45%;
   }
+}
+
+/* if screen size is less than 300px */
+@media screen and (max-width: 300px) {
+  body {
+    zoom: 40%;
+  }
+}
+
+#search {
+	width: 185px;
 }
