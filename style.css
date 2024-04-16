@@ -1045,3 +1045,67 @@ opacity: 50;
                 color: #243455;
                 transition: 1s;
             }
+
+
+
+
+
+i.flag-ps:before, i.flag-palestine:before {
+    background-position: -72px -676px !important;
+}
+
+i.flag::before {
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+	margin-top: -4px;
+    content: "";
+    background: url(https://mdbootstrap.com/img/svg/flags.png) no-repeat -108px -1976px;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+i.flag:not(.icon) {
+    display: inline-block;
+    width: 14px;
+    height: 10px;
+    margin: 0 .5em 0 0;
+    line-height: 11px;
+    text-decoration: inherit;
+    vertical-align: baseline;
+    backface-visibility: hidden;
+}
+user agent stylesheet
+i {
+    font-style: italic;
+}
+.mdb-flag-selected {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    max-width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.bg-body-tertiary {
+    --mdb-bg-opacity: 1;
+    background-color: rgba(var(--mdb-tertiary-bg-rgb), var(--mdb-bg-opacity)) !important;
+}
+
+
+
+
+
+.newupdates1styleflags { 
+	text-align: center;
+	font-size: 9px;
+	padding-top: 5px;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: #243455;
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: Arial;
+}
