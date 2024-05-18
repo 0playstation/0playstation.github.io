@@ -1,0 +1,473 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #0e6cc4;
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+  zoom: 30%;
+  }
+}
+
+header{
+	height: 3em;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+header div{
+	height: 100%;
+	display: inline-block;
+}
+
+#plus{
+	width: 3em;
+	background-image: url("https://s20.postimg.org/9jdjr9lml/plus.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+#info{
+	width: 3em;
+	background-image: url("https://i.postimg.cc/m2x13xDd/info.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+#textInfo{
+	color: white;
+	font-family: arial;
+	width: 25%;
+	float: left;
+	line-height: 3em;
+}
+
+#friends{
+	width: 3em;
+	background-image: url("https://i.postimg.cc/vHwbv8v1/friends.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+#user{
+	margin-left: 1em;
+	width: 3em;
+	background-image: url("https://s20.postimg.org/yvwsexlfh/user.png");
+	background-size: 140%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+#userName{
+	color: white;
+	font-family: arial;
+	width: 25%;
+	float: left;
+	line-height: 3em;
+}
+
+ps4signin{
+	color: white;
+	font-family: arial;
+	width: 30%;
+	float: right;
+	line-height: 3em;
+}
+
+#trophies{
+	margin-left: 1em;
+	width: 3em;
+	background-image: url("https://i.postimg.cc/wTKmp1Cx/trophy.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+#power{
+	margin-left: 1em;
+	width: 3em;
+	background-image: url("power.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+#clock{
+	font-family: arial;
+	line-height: 3em;
+	float: right;
+	margin-right: 1em;
+	color: white;;
+}
+
+/*ENF OF HEADER********************************/
+
+#games{
+	width: 1120em;
+	position: absolute;
+	top: .5em;
+	left: 0;
+	padding: 5em;
+	z-index: 99;
+	
+}
+
+.squareGame{
+	height: 11em;
+	width: 11em;
+	vertical-align: top;
+	display: inline-block;
+	transition: 0.3s ease;
+}
+
+.squareGame:hover{
+	height: 16.5em;
+	width: 15em;
+	border: 3px solid white;
+	cursor: pointer;
+}
+
+.squareGame:hover .imgGame{
+	height: 85%;
+}
+
+.imgGame{
+	height: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.gameText{
+	color: white;
+	font-family: arial;
+	text-align: center;
+	line-height: 2.4em;
+	background-color: rgba(255,255,255,.2);
+}
+
+.gameTitle{
+	position: absolute;
+	color: white;
+	font-size: 1.2em;
+	font-family: Arial;
+	transform: translate(13.2em,-1.5em);
+}
+/*SQUARE IMAGE*****************************************/
+
+.ascii{
+	font-weight: bold;
+}
+
+.ps{
+	background-image: url("https://i.postimg.cc/c1pRT9TJ/ps.png");
+}
+
+.new{
+	background-image: url("https://i.postimg.cc/X7SSnLHG/new.png");
+}
+
+.Browser{
+	background-image: url("browser.png");
+}
+
+.AtomicHeart{
+	background-image: url("https://i.postimg.cc/FFD3v9Fd/ezgif-1-5500fe40db.jpg");
+}
+
+.TheCallistoProtocol{
+	background-image: url("https://i.postimg.cc/Gm98pk39/ezgif-4-aac449e777.jpg");
+}
+
+.WoLongFallenDynasty{
+	background-image: url("https://i.postimg.cc/ZKzxm9wY/ezgif-1-fdd3583dd6.jpg");
+}
+
+.library{
+	background-image: url("library.png");
+}
+
+
+
+.storeGame{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#residentevil4remake{
+	background-image: url("https://i.postimg.cc/bNkqqDjF/EVWy-ZD63pahuh95e-Klo-Fa-Ju-C.jpg");
+}
+
+#hogwartslegacy{
+	background-image: url("https://i.postimg.cc/gc37JvnR/hogwarts-legacy-button-fin-1653421326559.jpg");
+}
+
+#KerbalSpaceProgram2{
+	background-image: url("https://i.postimg.cc/jjK5p6wX/njop3tu-L6d-Wp-W6a-Mrz-HKm3-C1.jpg");
+}
+
+#OctopathTraveler2{
+	background-image: url("https://i.postimg.cc/8cVNvNRb/octopath-traveler-2-button-fin-1663082963956.jpg");
+}
+
+#WoLongFallenDynasty{
+	background-image: url("https://i.postimg.cc/CKyPS5SJ/wo-long-button-1-1655066531634.jpg");
+}
+
+#BayonettaOriginsCerezaandtheLostDemon{
+	background-image: url("https://i.postimg.cc/wTmDHVM8/Bayonetta-Origin-Cover.png");
+}
+
+#CrimeBossRockayCity{
+	background-image: url("https://i.postimg.cc/52JgRG3k/crimeboss-1670613538047.jpg");
+}
+
+#minecraftlegends{
+	background-image: url("https://i.postimg.cc/XqcGG2Cp/minecraftlegends-1024x1024.jpg");
+}
+
+/*store*/
+
+#store{
+	padding: 1em;
+	padding-top: 6em;
+	margin-top: -3em;
+	width: 60em;
+	height: 25em;
+	padding-left: 12em;
+}
+
+#store div{
+	float: left;
+	border: 3px solid rgba(245,245,245,1);
+	width: 12em;
+	height: 12em;
+	display: inline-block;
+}
+
+#store div:hover{
+	transform: scale(1.1, 1.1);
+	box-shadow: 0px 5px 10px 3px rgba(45,45,45,.7);
+	transition: 0.3s ease;
+}
+
+/*waves****************************/
+
+
+.box {
+	position: fixed;
+	top: 0;
+	transform: rotate(80deg);
+	left: 0;
+}
+
+.wave {
+	position: fixed;
+	top: 0;
+	left: 0;
+  opacity: .4;
+  position: absolute;
+  top: 3%;
+  left: 10%;
+  background: #0af;
+  width: 1500px;
+  height: 1300px;
+  margin-left: -150px;
+  margin-top: -250px;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 7000ms infinite linear;
+}
+
+.wave.-three {
+  animation: drift 7500ms infinite linear;
+	position: fixed;
+	background-color: #77daff;
+}
+
+.wave.-two {
+  animation: drift 3000ms infinite linear;
+  opacity: .1;
+  background: #77daff;
+	position: fixed;
+}
+
+.box:after {
+  content: '';
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes drift {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
+
+/*LOADING SPACE*/
+
+.contain {
+	animation-delay: 4s;
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  background: #25a7d7;
+  background: -webkit-linear-gradient(#25a7d7, #2962FF);
+  background: linear-gradient(#25a7d7, #25a7d7);
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 5px;
+}
+
+/*Animation*/
+.icon:nth-child(2) img {-webkit-animation-delay: 0.2s;animation-delay: 0.2s}
+.icon:nth-child(3) img {-webkit-animation-delay: 0.3s;animation-delay: 0.3s}
+.icon:nth-child(4) img {-webkit-animation-delay: 0.4s;animation-delay: 0.4s}
+
+.icon img {
+  -webkit-animation: anim 2s ease infinite;
+  animation: anim 2s ease infinite;
+  -webkit-transform: scale(0,0) rotateZ(180deg);
+  transform: scale(0,0) rotateZ(180deg);
+}
+
+@-webkit-keyframes anim{
+  0% {
+    -webkit-transform: scale(0,0) rotateZ(-90deg);
+    transform: scale(0,0) rotateZ(-90deg);opacity:0
+  }
+  30% {
+    -webkit-transform: scale(1,1) rotateZ(0deg);
+    transform: scale(1,1) rotateZ(0deg);opacity:1
+  }
+  50% {
+    -webkit-transform: scale(1,1) rotateZ(0deg);
+    transform: scale(1,1) rotateZ(0deg);opacity:1
+  }
+  80% {
+    -webkit-transform: scale(0,0) rotateZ(90deg);
+    transform: scale(0,0) rotateZ(90deg);opacity:0
+  }
+}
+
+@keyframes anim{
+  0% {
+    -webkit-transform: scale(0,0) rotateZ(-90deg);
+    transform: scale(0,0) rotateZ(-90deg);opacity:0
+  }
+  30% {
+    -webkit-transform: scale(1,1) rotateZ(0deg);transform: scale(1,1) rotateZ(0deg);opacity:1
+  }
+  50% {
+    -webkit-transform: scale(1,1) rotateZ(0deg);
+    transform: scale(1,1) rotateZ(0deg);opacity:1
+  }
+  80% {
+    -webkit-transform: scale(0,0) rotateZ(90deg);
+    transform: scale(0,0) rotateZ(90deg);opacity:0
+  }
+}
+
+/*librarygames****************************/
+
+.librarygames{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#overwatch{
+	background-image: url("https://i.postimg.cc/kX3QwRGP/overwatch.png");
+}
+
+#rocketLeague{
+	background-image: url("https://i.postimg.cc/sfkLSJhY/rl.png");
+}
+
+#cod{
+	background-image: url("https://i.postimg.cc/9F5G2TcL/cod.png");
+}
+
+#furi{
+	background-image: url("https://i.postimg.cc/dtcZTYk6/furi.png");
+}
+
+#youtube{
+	background-image: url("https://i.postimg.cc/L6KF3S10/yt.png");
+}
+
+#bro{
+	background-image: url("https://i.postimg.cc/Dykz0PJb/bro.png");
+}
+
+#outlast{
+	background-image: url("https://i.postimg.cc/8PQ5xhLw/outlast.png");
+}
+
+#browser{
+	background-image: url("browser.png");
+}
+
+/*store*/
+
+#librarygames{
+	padding: 1em;
+	padding-top: 6em;
+	margin-top: -3em;
+	width: 60em;
+	height: 25em;
+	padding-left: 12em;
+}
+
+#librarygames div{
+	float: left;
+	border: 3px solid rgba(245,245,245,1);
+	width: 12em;
+	height: 12em;
+	display: inline-block;
+}
+
+#librarygames div:hover{
+	transform: scale(1.1, 1.1);
+	box-shadow: 0px 5px 10px 3px rgba(45,45,45,.7);
+	transition: 0.3s ease;
+}
+*/

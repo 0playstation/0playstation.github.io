@@ -26,33 +26,15 @@ body {
 }
 
 body{
-zoom: 150%;
+zoom: 125%;
 }
-
 
 
 @media only screen and (max-width: 600px) {
   body {
-  zoom: 90%;
+  zoom: 125%;
   }
 }
-
-
-
-@media only screen and (min-width: 1080px) {
-  body {
-  zoom: 140%;
-  }
-}
-
-@media only screen and (min-width: 1600px) {
-  body {
-  zoom: 170%;
-  }
-}
-
-
-
 
 /* Typography =======================*/
 
@@ -100,14 +82,13 @@ zoom: 150%;
 .card-front__text-price {
   font-size: 1.2rem;
   margin-top: -.2rem;
-  margin-bottom: 10rem;
 }
 
 /* Back cover */
 
 /* For inside page's body text */
 .inside-page__text {
-  color: black;
+  color: white;
 }
 
 /* Icons ===========================================*/
@@ -123,21 +104,18 @@ zoom: 150%;
 /* Buttons =================================================*/
 
 .inside-page__btn {
-  background-color: white;
+  background-color: transparent;
   border: 2px solid;
-  border-radius: .2rem;
-  border-color: grey;
-  font-size: 0.7rem;
+  border-radius: .5rem;
+  font-size: 0.9rem;
   font-weight: 600;
   overflow: hidden;
   position: relative;
   text-decoration: none;
   transition: all .3s ease;
-  width: 85%;
-  height: 5%;
+  width: 90%;
+  height: 35px;
   z-index: 10;
-  padding: 0px;
-  margin: 1px;
 }
 
 .inside-page__btn::before { 
@@ -153,10 +131,8 @@ zoom: 150%;
 }
 
 .inside-page__btn--city { 
-  border-color: #d3d3d3;
-  color: black;
-  border-width: 2px;
-  padding: 5px;
+  border-color: white;
+  color: white;
 }
 
 .inside-page__btn--city::before { 
@@ -213,19 +189,14 @@ zoom: 150%;
 
 /* Container to hold all cards in one place */
 .card-area {
-  color: black;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
   align-items: center;
   display: table-cell;
   height: 100%;
   justify-content: space-evenly;
-  padding-left: 90px;
+  padding-left: 30px;
   padding-right: 0px;
-}
-
-@media only screen and (max-width: 600px) {
-.card-area {
-  padding-left: 80px;
-}
 }
 
 /* Card ============================================*/
@@ -238,8 +209,8 @@ zoom: 150%;
   justify-content: center;
   width: 98%;
   margin: 2px;
-  padding-left: 10px;
-  padding-bottom: 10px;
+  padding-right: 0px;
+  padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -251,13 +222,17 @@ zoom: 150%;
 /* A container to hold the flip card and the inside page */
 .card {
   background-color: rgba(0,0,0, .05);
-  height: 50rem;
+  box-shadow: -.1rem 1.7rem 6.6rem -3.2rem rgba(0,0,0,0.5);
+  height: 25rem;
   position: relative;
   transition: all 1s ease;
   width: 15rem;
 }
 
-
+.card
+{
+  box-shadow: 0px 0px 7px 1.5px #333
+}
 
 /* Flip card - covering both the front and inside front page */
 
@@ -364,15 +339,15 @@ zoom: 150%;
 /* Inside page */
 
 .inside-page {
-  background-color: #F1F1F1;
+  background-image: linear-gradient(to right, #024B9A , #0185CD);
+  box-shadow: inset 20rem 0px 5rem -2.5rem rgba(0,0,0,0.25);
   height: 100%;
-  padding: 0.5rem;
+  padding: 1rem;
   position: absolute;
   right: 0;
   transition: all 1s ease;
-  width: 15.5rem;
+  width: 15rem;
   z-index: 1;
-  border: 2px solid #d3d3d3;
 }
 
 .inside-page__container {
@@ -382,8 +357,6 @@ zoom: 150%;
   height: 100%;
   text-align: center; 
   width: 100%;
-  font-size: 0.9rem;
-  font-weight: 600;
 }
 
 /* Functionality ====================================*/
@@ -396,7 +369,9 @@ zoom: 150%;
 }
 
 /* When the card is hovered, the shadow on the inside page will shrink to the left */
-
+.card:hover .inside-page {
+  box-shadow: inset 1rem 0px 5rem -2.5rem rgba(0,0,0,0.1);
+}
 
 /* Footer ====================================*/
 
@@ -645,14 +620,6 @@ social button
   background: #c12127;
 }
 
-.social-button--paypal {
-  color: #3b7bbf;
-}
-
-.social-button--paypal::after {
-  background: #3b7bbf;
-}
-
 
 
 
@@ -789,9 +756,3 @@ loading
 /*
 loading
 */
-
-
-
-
-
-

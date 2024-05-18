@@ -1,98 +1,51 @@
-// Disable right-click
-document.addEventListener('contextmenu', (e) => e.preventDefault());
-
-function ctrlShiftKey(e, keyCode) {
-  return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
-}
-
-document.onkeydown = (e) => {
-  // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
-  if (
-    event.keyCode === 123 ||
-    ctrlShiftKey(e, 'I') ||
-    ctrlShiftKey(e, 'J') ||
-    ctrlShiftKey(e, 'C') ||
-    (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
-  )
-    return false;
-};
-// Disable right-click
-
-
-/* fbstories */
-var $sliderMain = $('.single-item');
-var $status = $('.pagingInfo');
-var $progressBarContainer = $('.progressBarContainer');
-
-$sliderMain.slick({
-  arrows: false,
-  touchMove: false,
-  swipe: false,
-  dots: true
+// loading
+$(document).ready(function() {
+ 
+  // Fakes the loading setting a timeout
+    setTimeout(function() {
+        $('body').addClass('loaded');
+    }, 3500);
+ 
 });
+// loading
 
-$('.slick-dots li').each(function(index, element){
-  $progressBarContainer.append('<div><span data-slick-index="'+index+'" class="progressBar"></span></div>');
-  console.log(index);
-});
-
-$sliderMain.click(function() {
-  $sliderMain.slick('slickGoTo', parseInt($('.single-item').slick('slickCurrentSlide'))+1);
-});
-
-// ticking machine
-var percentTime;
-var tick;
-var time = 1;
-var progressBarIndex = 0;
-var isPause;
-
-$('.progressBarContainer .progressBar').each(function(index) {
-  var progress = "<div class='inProgress inProgress" + index + "'></div>";
-  $(this).html(progress);
-});
-
-function startProgressbar() {
-  resetProgressbar();
-  percentTime = 0;
-  isPause = false;
-  tick = setInterval(interval, 10);
-}
-
-function interval() {
-  if (($('.single-item .slick-track div[data-slick-index="' + progressBarIndex + '"]').attr("aria-hidden")) === "true") {
-    progressBarIndex = $('.single-item .slick-track div[aria-hidden="false"]').data("slickIndex");
-    startProgressbar();
-  } else {
-    percentTime += 1 / (time + 5);
-    $('.inProgress' + progressBarIndex).css({
-      width: percentTime + "%"
-    });
-    if (percentTime >= 100) {
-      $('.single-item').slick('slickNext');
-      progressBarIndex++;
-      if (progressBarIndex > 2) {
-        progressBarIndex = 0;
-      }
-      startProgressbar();
-    }
-  }
-}
-
-function resetProgressbar() {
-  $('.inProgress').css({
-    width: 0 + '%'
-  });
-  clearInterval(tick);
-}
-
-startProgressbar();
-// End ticking machine
-
-$('.progressBarContainer div').click(function () {
-  clearInterval(tick);
-  var goToThisIndex = $(this).find("span").data("slickIndex");
-  $('.single-item').slick('slickGoTo', goToThisIndex, false);
-  startProgressbar();
-});
-/* fbstories */
+//$(document).ready(function(){//
+//$("body").trigger("click");//
+ // $("a.link").hover(//
+  //function() {//
+    //alert("arabicps4games.com");//
+    //location.href="https://arabicps4games.com";//
+  //}//
+//);//
+   
+ // $(document).on('keydown',function(event)//
+    //{//
+     //alert(event.which);//
+    //if(event.keyCode==123)//
+    //{//
+        //alert('Developers arabicps4games.com');
+        //$("body").html("<h1>arabicps4games.com</h1>");
+      //event.preventDefault();
+        //return false;
+    //}//
+    //else if(event.ctrlKey && event.shiftKey && event.keyCode==73)//
+    //{//
+      
+        //alert('No Developers Tools')//
+      //event.preventDefault();//
+        //return false;  //Prevent from ctrl+shift+i//
+    //}//
+    //else if(event.ctrlKey && event.keyCode==74)//
+    //{//
+        //alert('Entered ctrl+shift+j')//
+        //event.preventDefault();//
+        //return false;  //Prevent from ctrl+shift+i//
+    //}//
+//});//
+//$(document).on("contextmenu",function(e)//
+//{//
+//alert('Right Click Not Allowed')//
+//e.preventDefault();//
+//});//
+  
+//});//
