@@ -15,6 +15,8 @@ body {
   position: relative;
 }
 
+
+
 body {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -26,7 +28,7 @@ body {
 }
 
 body{
-zoom: 150%;
+zoom: 160%;
 }
 
 
@@ -41,13 +43,13 @@ zoom: 150%;
 
 @media only screen and (min-width: 1080px) {
   body {
-  zoom: 140%;
+  zoom: 160%;
   }
 }
 
 @media only screen and (min-width: 1600px) {
   body {
-  zoom: 170%;
+  zoom: 180%;
   }
 }
 
