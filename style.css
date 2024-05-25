@@ -366,7 +366,8 @@ zoom: 160%;
 /* Inside page */
 
 .inside-page {
-  background-color: #F1F1F1;
+  background-color: black;
+  opacity: 0.9;
   height: 100%;
   padding: 0.5rem;
   position: absolute;
@@ -791,9 +792,3 @@ loading
 /*
 loading
 */
-
-
-
-
-
-
