@@ -367,7 +367,7 @@ zoom: 160%;
 
 .inside-page {
   background-color: black;
-  opacity: 0.9;
+  opacity: 0.99;
   height: 100%;
   padding: 0.5rem;
   position: absolute;
@@ -792,3 +792,18 @@ loading
 /*
 loading
 */
+
+
+
+
+
+
+
+
+
+
+.breakgamename {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
