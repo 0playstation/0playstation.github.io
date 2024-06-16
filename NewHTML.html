@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <script language="JavaScript" type="text/javascript">
+
+
+var seconds = 20; // seconds for HTML
+var foo; // variable for clearInterval() function
+
+function redirect() {
+    window.location.href = 'https://arabicps4games.com';
+}
+
+function updateSecs() {
+    document.getElementById("seconds").innerHTML = seconds;
+    seconds--;
+    if (seconds == -1) {
+        clearInterval(foo);
+        redirect();
+    }
+}
+
+function countdownTimer() {
+    foo = setInterval(function () {
+        updateSecs()
+    }, 1000);
+}
+
+countdownTimer();
+
+
+
+
+
+
+        </script>
+    </head>
+    <body>
+<p>Link will be available in <span id="seconds">20</span> seconds
+</p>
+<center>
+    <h3>Youtube video autoplay</h3>
+    <iframe height = "500px" width="1000px" src="https://www.youtube.com/embed/u7oF8P0qfOM?autoplay=1&mute=1">
+    </iframe>
+</center>
+
+
+
+    </body>
+</html>
