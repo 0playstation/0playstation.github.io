@@ -154,11 +154,12 @@ zoom: 160%;
   z-index: -1;
 }
 
+/* change this if you want to change the border of every game square container */
 .inside-page__btn--city { 
   border-color: #d3d3d3;
   color: black;
-  border-width: 2px;
-  padding: 5px;
+  border-width: 1px;
+  padding: 1px;
 }
 
 .inside-page__btn--city::before { 
