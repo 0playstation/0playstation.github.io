@@ -28,14 +28,14 @@ body {
 }
 
 body{
-zoom: 160%;
+zoom: 150%;
 }
 
 
 
 @media only screen and (max-width: 600px) {
   body {
-  zoom: 90%;
+  zoom: 100%;
   }
 }
 
@@ -43,13 +43,13 @@ zoom: 160%;
 
 @media only screen and (min-width: 1080px) {
   body {
-  zoom: 160%;
+  zoom: 150%;
   }
 }
 
 @media only screen and (min-width: 1600px) {
   body {
-  zoom: 180%;
+  zoom: 150%;
   }
 }
 
@@ -808,3 +808,27 @@ loading
   margin-bottom: 10px;
   padding-top: 10px;
 }
+
+
+
+
+
+
+
+
+
+/* fix this if you want to makes pages numbers as buttons*/
+/*
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+*/
