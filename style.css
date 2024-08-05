@@ -11,8 +11,9 @@ html { font-size: 62.5%; }
 
 body {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Candara, sans-serif;
   position: relative;
+  font-weight: normal;
 }
 
 .main {
@@ -32,6 +33,15 @@ body {
 
 body{
 zoom: 150%;
+}
+
+
+a:hover {
+  color: #B1B1B1;
+}
+
+a {
+  color: #1F2076;
 }
 
 
