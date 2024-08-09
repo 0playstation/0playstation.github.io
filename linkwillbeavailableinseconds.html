@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <script language="JavaScript" type="text/javascript">
+
+var seconds = 20; // seconds for HTML
+var foo; // variable for clearInterval() function
+
+function redirect() {
+    window.location.href = 'https://arabicps4games.com';
+}
+
+function updateSecs() {
+    document.getElementById("seconds").innerHTML = seconds;
+    seconds--;
+    if (seconds == -1) {
+        clearInterval(foo);
+        redirect();
+    }
+}
+
+function countdownTimer() {
+    foo = setInterval(function () {
+        updateSecs()
+    }, 1000);
+}
+
+countdownTimer();
+
+        </script>
+    </head>
+    <body>
+<center>
+<p>Link will be available in <span id="seconds">20</span> seconds
+</p>
+
+
+    <h3>Please Play ▶ the video to activate it fast...</h3>
+
+<div style="position: fixed; height: 500px; width: 800px; overflow: hidden; margin-top: 50px; margin-left: -300px; zoom:60%; autoplay muted">
+    <iframe src="https://listenonrepeat.com/?v=u7oF8P0qfOM&autoplay=1&mute=1#Wadie_ismail_-__Bay3a_w_Charya_%D8%A8%D8%A7%D9%8A%D8%B9%D8%A9_%D9%88_%D8%B4%D8%A7%D8%B1%D9%8A%D8%A9_(_Music_Rai_2024_) frameborder="0" allowfullscreen="true" allowtransparency="true" style="min-width: 600px; min-height: 600px; border: 0; margin-top: 50px; margin-left: 50px; position: fixed; top: 100px; autoplay muted">
+    </iframe>
+</div>
+
+</center>
+
+
+
+    </body>
+</html>
