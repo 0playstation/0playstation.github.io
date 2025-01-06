@@ -32,7 +32,7 @@ body {
 }
 
 body{
-zoom: 150%;
+zoom: 182%;
 }
 
 
@@ -48,29 +48,10 @@ a {
 
 @media only screen and (max-width: 600px) {
   body {
-  zoom: 80%;
+  zoom: 55%;
   }
 }
 
-
-
-@media only screen and (min-width: 1080px) {
-  body {
-  zoom: 150%;
-  }
-}
-
-@media only screen and (min-width: 1600px) {
-  body {
-  zoom: 150%;
-  }
-}
-
-@media only screen and (min-width: 10000px) {
-  body {
-  zoom: 150%;
-  }
-}
 
 
 
@@ -179,6 +160,7 @@ a {
   color: black;
   border-width: 1px;
   padding: 1px;
+  margin: 2px;
 }
 
 .inside-page__btn--city::before { 
@@ -229,7 +211,7 @@ a {
  
 
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
 }
 
@@ -261,7 +243,7 @@ a {
   width: 98%;
   margin: 2px;
   padding-left: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -272,7 +254,6 @@ a {
 
 /* A container to hold the flip card and the inside page */
 .card {
-  background-color: rgba(0,0,0, .05);
   height: 50rem;
   position: relative;
   transition: all 1s ease;
@@ -388,7 +369,7 @@ a {
 .inside-page {
   background-color: black;
   opacity: 0.99;
-  height: 100%;
+  height: 95%;
   padding: 0.5rem;
   position: absolute;
   right: 0;
@@ -867,8 +848,7 @@ a:hover, a:active {
 
 
 .card {
-  background-color: rgba(0,0,0, .05);
-  height: 50rem;
+  height: 47rem;
   position: relative;
   transition: all 1s ease;
   width: 15rem;
@@ -1202,14 +1182,5 @@ position: absolute;
   0%{color:red;}
   50%{color:yellow;}
   100%{color:red;}
-
-
-
-
-
-
-
-
-
 
 
