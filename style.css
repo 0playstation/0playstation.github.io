@@ -32,7 +32,7 @@ body {
 }
 
 body{
-zoom: 182%;
+zoom: 150%;
 }
 
 
@@ -48,7 +48,7 @@ a {
 
 @media only screen and (max-width: 600px) {
   body {
-  zoom: 55%;
+  zoom: 70%;
   }
 }
 
@@ -222,7 +222,7 @@ a {
   display: table-cell;
   height: 100%;
   justify-content: space-evenly;
-  padding-left: 90px;
+  padding-left: 115px;
   padding-right: 0px;
 }
 
@@ -242,8 +242,8 @@ a {
   justify-content: center;
   width: 98%;
   margin: 2px;
-  padding-left: 10px;
-  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-bottom: 2px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -257,7 +257,7 @@ a {
   height: 50rem;
   position: relative;
   transition: all 1s ease;
-  width: 15rem;
+  width: 10rem;
 }
 
 
@@ -367,16 +367,17 @@ a {
 /* Inside page */
 
 .inside-page {
-  background-color: black;
+  background-color: white;
+  color: white;
   opacity: 0.99;
-  height: 95%;
+  height: 90%;
   padding: 0.5rem;
   position: absolute;
   right: 0;
   transition: all 1s ease;
-  width: 15.5rem;
+  width: 13.5rem;
   z-index: 1;
-  border: 2px solid #d3d3d3;
+  border: 1px solid #d3d3d3;
 }
 
 .inside-page__container {
@@ -804,9 +805,10 @@ loading
 
 
 .breakgamename {
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 10px;
   padding-top: 10px;
+  color: black;
 }
 
 
@@ -848,10 +850,11 @@ a:hover, a:active {
 
 
 .card {
-  height: 47rem;
+  height: 45rem;
   position: relative;
   transition: all 1s ease;
   width: 15rem;
+  margin-bottom: -20px;
 }
 \*body {
   background-image: url('https://i.makeagif.com/media/3-15-2014/pS6luP.gif');
@@ -1182,5 +1185,4 @@ position: absolute;
   0%{color:red;}
   50%{color:yellow;}
   100%{color:red;}
-
 
